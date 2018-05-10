@@ -1,0 +1,110 @@
+
+@media (min-width: 750px) {
+  .logo>img{
+    max-height: 150px;
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 750px) {
+  .logo{
+    text-align: center;
+  }
+  .logo>img{
+    max-height: 150px;
+    max-width: 150px;
+  }
+}
+
+.encabezado{
+  background: #FFBF00;
+  border: solid 2px #FFBF00;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 10px;
+}
+
+body{
+  background: black;
+  margin: 5%;
+  margin-top: 1%;
+}
+
+.navegacion>a{
+  width: 300px;
+}
+@media (min-width: 750px) {
+  nav>a{
+    width: 16.2%;
+  }
+}
+
+@media (max-width: 750px) {
+  nav>a{
+    width: 100%;
+  }
+}
+@media (min-width: 750px) {
+  .redes>a>img{
+    max-height: 40px;
+    max-width: 40px;
+    align: center;
+    visibility: visible;
+  }
+}
+@media (max-width: 750px) {
+  .redes>a>img{
+    max-height: 40px;
+    max-width: 40px;
+    align: center;
+    visibility: hidden;
+  }
+}
+
+
+.contenido{
+  background: gray;
+  padding: 2%;
+
+}
+
+.contenido1>h1{
+  text-align: center;
+}
+
+.Green>img{
+  align: center;
+}
+
+.contenido{
+  border-radius: 10px;
+}
+
+button{
+  width: 50px;
+}
+
+.btn-secundary{
+  background: orange;
+}
+
+.opciones>a{
+  width: 100%;
+  margin-top: 2px;
+}
+
+.comentarios{
+  background: white;
+  border-radius: 10px;
+}
+
+
+.comentarios>input{
+  width: 80%;
+  height: 40px;
+  border: white;
+}
+
+.comentarios>img{
+  width: 40px;
+}
