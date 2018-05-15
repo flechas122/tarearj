@@ -1,0 +1,99 @@
+body {
+  background-image:url(../img/descarga.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parte1{
+  text-align: center;
+}
+
+.parte1>img{
+  height: 100px;
+  width: 100px;
+}
+
+.contenido{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#logo{
+  max-width: 100px;
+  filter: none;
+}
+
+@media (min-width: 750px) {
+  .contenido {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+}
+
+@media (max-width: 750px) {
+  .contenido {
+    margin: 0%;
+  }
+}
+
+.contenido{
+  min-height: 35px;
+  background-color: rgba(	134,	118,	189, 0.3);
+}
+
+.vertical{
+
+    border:         none;
+    border-left:    1px solid hsla(200, 10%, 50%,100);
+    height:         100%;
+    width:          1px;
+}
+
+.horizontal{
+    border:         none;
+    border-top:     1px solid hsla(200, 10%, 50%,100);
+    height:         1px;
+    width:          90%;
+}
+
+button{
+  width: 40px;
+}
+
+.columna1{
+  background: #A7A8C5;
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.navegacion>a{
+  width: 100%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.imagen{
+  margin: 2px;
+}
+
+.columna2{
+  background: #A7A8C5;
+}
+
+.receta1{
+  margin: 2%;
+  border-bottom: solid gray 1px;
+}
+
+.receta2{
+  margin: 2%;
+  border-bottom: solid gray 1px;
+}
+
+
+@media (max-width: 750px) {
+   .imagen>img{
+    max-width: 100%;
+  }
+}
