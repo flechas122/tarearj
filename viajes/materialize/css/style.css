@@ -1,0 +1,73 @@
+nav{
+  height: 220px;
+}
+
+img{
+  margin: 10px;
+}
+
+.titulo{
+  margin-top: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.cuerpo1{
+  padding-top: 100px;
+}
+
+.contenedor>img{
+  max-width: 300px;
+}
+
+.contenedor{
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#central{
+  height: 460px;
+  max-width: 300px;
+  margin-top: 8px;
+}
+
+
+.redes{
+  max-height: 50px;
+}
+
+.cuerpo{
+  margin-top: 0px;
+}
+
+body{
+    background: #4db6ac teal lighten-2;
+}
+
+p{
+  margin: 0px;
+}
+
+.fondo{
+  border-radius: 10px;
+  background: white;
+}
+
+#perfil{
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.perfil{
+  text-align: center;
+  margin: auto;
+}
+
+.autor{
+  background: gray;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 60px;
+
+}
